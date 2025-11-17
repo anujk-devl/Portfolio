@@ -23,15 +23,15 @@ export default function Contact() {
         </p>
         
         <div className="flex justify-center space-x-6 mb-12">
-          <a href="mailto:your.email@example.com" className="flex items-center space-x-2 px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-full">
+          <a href="mailto:anujy2855@gmail.com" className="flex items-center space-x-2 px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-full">
             <Mail className="w-5 h-5" />
             <span>Email</span>
           </a>
-          <a href="https://github.com" className="flex items-center space-x-2 px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-full">
+          <a href="https://github.com/anujk-devl" className="flex items-center space-x-2 px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-full">
             <Github className="w-5 h-5" />
             <span>GitHub</span>
           </a>
-          <a href="https://linkedin.com" className="flex items-center space-x-2 px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-full">
+          <a href="https://www.linkedin.com/in/anujkumar-yadav-169866358/" className="flex items-center space-x-2 px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-full">
             <Linkedin className="w-5 h-5" />
             <span>LinkedIn</span>
           </a>
