@@ -4,11 +4,11 @@ import { ExternalLink, Github } from 'lucide-react';
 export default function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack online shopping platform with payment integration.",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
-      link: "#",
-      github: "#"
+      title: "Chat-Assistant",
+      description: "Built a full‑stack AI chat assistant with React/Vite interface, chat history, and custom brandingBuilt a full‑stack AI chat assistant with a ChatGPT‑style React/Vite frontend and a Node.js/Express API (OpenRouter GPT‑4o‑mini) deployed on Render and Vercel.",
+      tech: ["React", "Vite", "Node.js", "Express", "OpenRouter", "Render", "Vercel"],
+      link: "https://chat-assistant-gilt.vercel.app/",
+      github: "https://github.com/anujk-devl/chat-assistant"
     },
     {
       title: "Task Management App",
