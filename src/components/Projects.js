@@ -11,11 +11,11 @@ export default function Projects() {
       github: "https://github.com/anujk-devl/chat-assistant"
     },
     {
-      title: "Task Management App",
-      description: "Real-time collaborative task manager with drag-and-drop.",
-      tech: ["Next.js", "PostgreSQL", "Prisma", "WebSocket"],
-      link: "#",
-      github: "#"
+      title: "Styleora",
+      description: "Built a full‑stack e‑commerce web app for luxury wearables (Styleora) with a React/Vite frontend, Node.js/Express API, MongoDB Atlas database, JWT auth, and a deployed architecture using Render (backend) and Vercel (frontend)..",
+      tech: ["React", "Vite", "Node.js", "Express", "MongoDB Atlas", "Render", "Vercel"],
+      link: "https://styleora-lemon.vercel.app/",
+      github: "https://github.com/anujk-devl/styleora"
     }
   ];
 
