@@ -13,9 +13,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
-      <footer className="py-8 text-center bg-slate-900 text-gray-400 border-t border-white/10">
-        <p>© 2025 Your Portfolio. Built with React & Tailwind CSS.</p>
-      </footer>
+      
     </div>
   );
 }
