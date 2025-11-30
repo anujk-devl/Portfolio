@@ -3,17 +3,10 @@ import Tilt from "react-parallax-tilt";
 
 export default function Skills() {
   const skills = {
-    Frontend: ["JavaScript", "HTML5", "CSS3", "React"],
-    Backend: [
-      "Node.js",
-      "Express.js",
-      "SQL",
-      "RESTful APIs",
-      "Environment Configuration",
-    ],
-    Frameworks: ["React", "Express.js", "Bootstrap"],
+    Language: ["JavaScript", "HTML5", "CSS3", "SQL"],
+    "Frameworks & Libraries": ["React","Node.js","Express.js","MongoDB","Bootstrap"],
     "Developer Tools": ["Git", "GitHub", "VS Code"],
-    "Deployment & Cloud": ["Vercel", "MongoDB", "MongoDB Atlas", "AWS"],
+    "Deployment & Cloud": ["Vercel","Render", "MongoDB Atlas"],
   };
 
   return (
