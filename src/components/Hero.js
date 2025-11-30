@@ -12,10 +12,8 @@ export default function Hero() {
       className="min-h-screen flex items-center justify-center px-4 pt-16 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900"
     >
       <div className="text-center max-w-4xl mx-auto relative">
-        {/* Glowing background blob for 3D depth */}
         <div className="absolute -inset-16 bg-purple-600/30 blur-3xl rounded-full -z-10" />
 
-        {/* Circular 3D icon container */}
         <div
           className="
             w-32 h-32 mx-auto

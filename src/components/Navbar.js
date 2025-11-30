@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import { Menu, X, Code } from 'lucide-react';
+import React, { useState } from "react";
+import { Menu, X, Code } from "lucide-react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const scrollToSection = (id) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
     setIsOpen(false);
   };
 
@@ -17,10 +17,9 @@ export default function Navbar() {
             <Code className="w-8 h-8 text-purple-400" />
             <span className="text-xl font-bold text-white">Anuj Yadav</span>
           </div>
-          
-          {/* Desktop Menu */}
+
           <div className="hidden md:flex space-x-8">
-            {['home', 'about', 'skills', 'projects', 'contact'].map((item) => (
+            {["home", "about", "skills", "projects", "contact"].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
@@ -31,8 +30,7 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* Mobile Menu Button */}
-          <button 
+          <button
             className="md:hidden text-white"
             onClick={() => setIsOpen(!isOpen)}
           >
@@ -41,10 +39,9 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-slate-900">
-          {['home', 'about', 'skills', 'projects', 'contact'].map((item) => (
+          {["Home", "About", "Skills", "Projects", "Contact"].map((item) => (
             <button
               key={item}
               onClick={() => scrollToSection(item)}
