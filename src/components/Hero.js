@@ -28,11 +28,12 @@ export default function Hero() {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
-          Full-Stack Developer
+          Frontend Developer
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-300 mb-8">
-          Building modern web applications with cutting-edge technologies.
+          Frontend Developer specializing in React.js, TypeScript, and Next.js with hands-on experience building and deploying scalable,
+production-ready frontend applications
         </p>
 
         <div className="flex justify-center space-x-4">
